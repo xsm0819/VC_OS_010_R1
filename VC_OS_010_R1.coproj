@@ -86,7 +86,6 @@
     <Component id="458" name="USART" path="" type="2"/>
     <Component id="460" name="CMSIS Boot" path="" type="2"/>
     <Component id="467" name="MISC" path="" type="2"/>
-    <Component id="1135" name="FRT_FreeRTOS" path="" type="2"/>
   </Components>
   <Files>
     <File name="FRT_Library/FreeRTOS/Source/readme.txt" path="FRT_Library/FreeRTOS/Source/readme.txt" type="1"/>
