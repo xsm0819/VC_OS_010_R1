@@ -1,6 +1,6 @@
 #include "Device.h"
 
-void vFreeRTOSInitAll()
+void prvSetupHardware( void )
 {
 	SetSysClock();
 	EnableClockPeriph();
@@ -252,4 +252,34 @@ void EnableClockPeriph (void)
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+}
+
+PinState IOState;
+
+void vTaskRW_IO(void *pvParameters) {
+
+	while (1)
+	{
+		rel1(IOState.RELAY1);
+		IOState.RELAY1 = rel1State;
+		rel2(IOState.RELAY2);
+		IOState.RELAY2 = rel2State;
+		en_gsm_eth(IOState.GSM_ETH_EN);
+		en_spk(IOState.SPK_EN);
+
+		IOState.C869 = Ci869;
+		IOState.C02 = Ci02;
+		IOState.Line1 = L1;
+		IOState.Line2 = L2;
+		IOState.C120 = Ci120;
+		IOState.C130 = Ci130;
+		IOState.C140 = Ci140;
+		IOState.C100 = Ci100;
+		IOState.DoorMP = DOOR_mp;
+		IOState.Line3 = L3;
+
+		vTaskDelay(100);
+
+	}
+
 }

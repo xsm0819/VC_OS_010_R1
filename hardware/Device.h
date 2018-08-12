@@ -42,7 +42,29 @@
 #define	RST_SD(x)		GPIO_WriteBit(GPIOC, GPIO_Pin_5, !(x))
 #define	CS_SD(x)		GPIO_WriteBit(GPIOA, GPIO_Pin_15, !(x))
 
+//----struct for state IO pins-----//
+typedef struct
+{
+	//OUTPUT
+	unsigned char RELAY1;
+	unsigned char RELAY2;
+	unsigned char GSM_ETH_EN;
+	unsigned char SPK_EN;
+
+	//INPUT
+	unsigned char C120;
+	unsigned char C130;
+	unsigned char C140;
+	unsigned char Line1;
+	unsigned char Line2;
+	unsigned char Line3;
+	unsigned char C100;
+	unsigned char C02;
+	unsigned char C869;
+	unsigned char DoorMP;
+} PinState;
 //----------RTOS------------//
+void prvSetupHardware( void );
 
 
 //----------GPIO------------//

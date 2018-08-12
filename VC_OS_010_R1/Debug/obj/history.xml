@@ -1,65 +1,92 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RC -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1 -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\cmsis -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\stm_lib\inc -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\cmsis_boot -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\hardware -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\stm_lib -I..\..\..\..\..\Proj\ODS">
-      <target file="stm32f10x_spi.o" lastModified="1652e90b3d4">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RC -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\src -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1 -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\cmsis -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\freeRTOS -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\freeRTOS\include -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\stm_lib\inc -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\cmsis_boot -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\hardware -I..\..\..\..\..\Proj\ODS\VC_OS_010_R1\stm_lib -I..\..\..\..\..\Proj\ODS">
+      <target file="stm32f10x_spi.o" lastModified="1652ef57f02">
          <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1652df701da"/>
       </target>
-      <target file="stm32f10x_iwdg.o" lastModified="1652e90b62e">
+      <target file="stm32f10x_iwdg.o" lastModified="1652ef58361">
          <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="1652df6d668"/>
       </target>
-      <target file="Device.o" lastModified="1652e90abd1">
-         <source file="..\..\..\hardware\Device.c" lastModified="1652e90987b"/>
+      <target file="tasks.o" lastModified="1652ef570e4">
+         <source file="..\..\..\freeRTOS\tasks.c" lastModified="1652eac0c29"/>
       </target>
-      <target file="stm32f10x_rcc.o" lastModified="1652e90aac8">
+      <target file="Device.o" lastModified="1652ef571f3">
+         <source file="..\..\..\hardware\Device.c" lastModified="1652edc53d8"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1652ef56cc5">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1652df62b68"/>
       </target>
-      <target file="stm32f10x_pwr.o" lastModified="1652e90a563">
+      <target file="stm32f10x_pwr.o" lastModified="1652ef565b2">
          <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="1652df689e1"/>
       </target>
-      <target file="stm32f10x_dac.o" lastModified="1652e90a778">
+      <target file="stm32f10x_dac.o" lastModified="1652ef56803">
          <source file="..\..\..\stm_lib\src\stm32f10x_dac.c" lastModified="1652df65e9b"/>
       </target>
-      <target file="printf.o" lastModified="1652e90a969">
+      <target file="croutine.o" lastModified="1652ef57cc3">
+         <source file="..\..\..\freeRTOS\croutine.c" lastModified="1652eac0b8d"/>
+      </target>
+      <target file="printf.o" lastModified="1652ef56b6d">
          <source file="..\..\..\stdio\printf.c" lastModified="1652df526be"/>
       </target>
-      <target file="stm32f10x_i2c.o" lastModified="1652e90b54a">
+      <target file="stm32f10x_i2c.o" lastModified="1652ef58113">
          <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="1652df72e0b"/>
       </target>
-      <target file="misc.o" lastModified="1652e90b2a5">
+      <target file="misc.o" lastModified="1652ef57d9d">
          <source file="..\..\..\stm_lib\src\misc.c" lastModified="1652df83776"/>
       </target>
-      <target file="stm32f10x_flash.o" lastModified="1652e90b0d1">
+      <target file="heap_2.o" lastModified="1652ef5824f">
+         <source file="..\..\..\freeRTOS\include\heap_2.c" lastModified="1652eac0ca6"/>
+      </target>
+      <target file="queue.o" lastModified="1652ef579fd">
+         <source file="..\..\..\freeRTOS\queue.c" lastModified="1652eac0bfa"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="1652ef57896">
          <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="1652df75a78"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="1652e90a67c">
-         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1652df65eba"/>
+      <target file="list.o" lastModified="1652ef57639">
+         <source file="..\..\..\freeRTOS\list.c" lastModified="1652eac0bac"/>
       </target>
-      <target file="stm32f10x_rtc.o" lastModified="1652e909ffc">
+      <target file="port.o" lastModified="1652ef57ac8">
+         <source file="..\..\..\freeRTOS\port.c" lastModified="1652eac0bdb"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="1652ef55fff">
          <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="1652df689b3"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="1652e90a3dd">
+      <target file="stm32f10x_gpio.o" lastModified="1652ef566ea">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1652df65eba"/>
+      </target>
+      <target file="timers.o" lastModified="1652ef56a35">
+         <source file="..\..\..\freeRTOS\timers.c" lastModified="1652eac0c48"/>
+      </target>
+      <target file="delay.o" lastModified="1652ef5609b">
+         <source file="..\..\..\hardware\delay.c" lastModified="1651b370705"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1652ef56424">
          <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1652df62b87"/>
       </target>
-      <target file="syscalls.o" lastModified="1652e90af71">
+      <target file="syscalls.o" lastModified="1652ef5772b">
          <source file="..\..\..\syscalls\syscalls.c" lastModified="1652df4f94b"/>
       </target>
-      <target file="startup_stm32f10x_hd.o" lastModified="1652e90a479">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1652df62b78"/>
+      <target file="startup_stm32f10x_hd.o" lastModified="1652ef564b9">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1652e9ec1e3"/>
       </target>
-      <target file="stm32f10x_tim.o" lastModified="1652e90a2f3">
+      <target file="DHT11.o" lastModified="1652f12d755">
+         <source file="..\..\..\hardware\DHT11.c" lastModified="1652f12ced6"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1652ef5632a">
          <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1652df789fe"/>
       </target>
-      <target file="stm32f10x_adc.o" lastModified="1652e90ad3e">
+      <target file="stm32f10x_adc.o" lastModified="1652ef573e8">
          <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1652df7ba07"/>
       </target>
-      <target file="stm32f10x_dma.o" lastModified="1652e90b1cb">
+      <target file="stm32f10x_dma.o" lastModified="1652ef57bf7">
          <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="1652df62b59"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="1652e90ae85">
-         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1652df7f124"/>
+      <target file="main.o" lastModified="1652f0e353d">
+         <source file="..\..\..\src\main.c" lastModified="1652f0e2e29"/>
       </target>
-      <target file="main.o" lastModified="1652e90a840">
-         <source file="..\..\..\main\main.c" lastModified="1652e90985c"/>
+      <target file="stm32f10x_usart.o" lastModified="1652ef5755f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1652df7f124"/>
       </target>
    </processor>
 </history>

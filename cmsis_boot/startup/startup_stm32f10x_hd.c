@@ -26,6 +26,10 @@ unsigned long pulStack[STACK_SIZE];
 /*----------Macro definition--------------------------------------------------*/  
 #define WEAK __attribute__ ((weak))           
 
+#define vPortSVCHandler SVC_Handler
+#define xPortPendSVHandler PendSV_Handler
+#define vPortSVCHandler SVC_Handler
+#define xPortSysTickHandler SysTick_Handler
 
 /*----------Declaration of the default fault handlers-------------------------*/  
 /* System exception vector handler */
@@ -118,7 +122,9 @@ extern void SystemInit(void);    /*!< Setup the microcontroller system(CMSIS) */
 void Default_Reset_Handler(void);   /*!< Default reset handler                */
 static void Default_Handler(void);  /*!< Default exception handler            */
 
-
+extern void xPortPendSVHandler( void ) __attribute__ (( naked ));
+extern void xPortSysTickHandler( void );
+extern void vPortSVCHandler( void ) __attribute__ (( naked ));
 /**
   *@brief The minimal vector table for a Cortex M3.  Note that the proper constructs
   *       must be placed on this to ensure that it ends up at physical address
@@ -128,7 +134,7 @@ __attribute__ ((used,section(".isr_vector")))
 void (* const g_pfnVectors[])(void) =
 {       
   /*----------Core Exceptions-------------------------------------------------*/
-  (void *)&pulStack[STACK_SIZE],     /*!< The initial stack pointer         */
+  (void *)&pulStack[STACK_SIZE-1],     /*!< The initial stack pointer         */
   Reset_Handler,                /*!< Reset Handler                            */
   NMI_Handler,                  /*!< NMI Handler                              */
   HardFault_Handler,            /*!< Hard Fault Handler                       */
