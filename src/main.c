@@ -5,17 +5,13 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "Device.h"
-
-
-#define StartDHT11Conversion xTaskCreate( vTaskReadDHT11, ( signed char * ) "Sensor DHT11 result", configMINIMAL_STACK_SIZE, NULL, 2,( xTaskHandle * ) NULL);
+#include "Terminal.h"
 
 //--------------------------------------------------------------
 PinState IOState;
 
 void vTaskRW_IO(void *pvParameters);
-
 void vTaskReadDHT11(void *pvParameters);
-
 
 
 //--------------------------------------------------------------

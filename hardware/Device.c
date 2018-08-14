@@ -5,6 +5,7 @@ void prvSetupHardware( void )
 	SetSysClock();
 	EnableClockPeriph();
 	GPIO_Initialise();
+	InitUART_Terminal(57600);
 }
 
 
@@ -252,6 +253,8 @@ void EnableClockPeriph (void)
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+
+		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
 }
 
 PinState IOState;

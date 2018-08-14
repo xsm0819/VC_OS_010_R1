@@ -92,17 +92,17 @@
     <File name="stm_lib/inc/stm32f10x_tim.h" path="stm_lib/inc/stm32f10x_tim.h" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="src" path="" type="2"/>
-    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_pwr.h" path="stm_lib/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f10x_hd.c" path="cmsis_boot/startup/startup_stm32f10x_hd.c" type="1"/>
+    <File name="freeRTOS/include/croutine.h" path="freeRTOS/include/croutine.h" type="1"/>
     <File name="hardware/DHT11.h" path="hardware/DHT11.h" type="1"/>
     <File name="freeRTOS/include/semphr.h" path="freeRTOS/include/semphr.h" type="1"/>
-    <File name="freeRTOS/include/croutine.h" path="freeRTOS/include/croutine.h" type="1"/>
     <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
     <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_dac.h" path="stm_lib/inc/stm32f10x_dac.h" type="1"/>
     <File name="freeRTOS/include/list.h" path="freeRTOS/include/list.h" type="1"/>
@@ -112,18 +112,19 @@
     <File name="stm_lib/inc/stm32f10x_flash.h" path="stm_lib/inc/stm32f10x_flash.h" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_spi.h" path="stm_lib/inc/stm32f10x_spi.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_adc.c" path="stm_lib/src/stm32f10x_adc.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_dma.h" path="stm_lib/inc/stm32f10x_dma.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_adc.c" path="stm_lib/src/stm32f10x_adc.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_iwdg.h" path="stm_lib/inc/stm32f10x_iwdg.h" type="1"/>
+    <File name="Terminal.h" path="Terminal.h" type="1"/>
     <File name="freeRTOS/include" path="" type="2"/>
     <File name="freeRTOS/include/StackMacros.h" path="freeRTOS/include/StackMacros.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
     <File name="freeRTOS/croutine.c" path="freeRTOS/croutine.c" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
     <File name="hardware" path="" type="2"/>
     <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
     <File name="freeRTOS/include/portmacro.h" path="freeRTOS/include/portmacro.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
     <File name="src/main.c" path="src/main.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
@@ -132,8 +133,9 @@
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
     <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="stdio" path="" type="2"/>
-    <File name="freeRTOS/port.c" path="freeRTOS/port.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="freeRTOS/port.c" path="freeRTOS/port.c" type="1"/>
+    <File name="Terminal.c" path="Terminal.c" type="1"/>
     <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
     <File name="freeRTOS/include/FreeRTOS.h" path="freeRTOS/include/FreeRTOS.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_rcc.c" path="stm_lib/src/stm32f10x_rcc.c" type="1"/>
@@ -160,9 +162,9 @@
     <File name="stm_lib/src/stm32f10x_i2c.c" path="stm_lib/src/stm32f10x_i2c.c" type="1"/>
     <File name="freeRTOS" path="" type="2"/>
     <File name="freeRTOS/include/queue.h" path="freeRTOS/include/queue.h" type="1"/>
+    <File name="freeRTOS/include/heap_2.c" path="freeRTOS/include/heap_2.c" type="1"/>
     <File name="freeRTOS/timers.c" path="freeRTOS/timers.c" type="1"/>
     <File name="freeRTOS/queue.c" path="freeRTOS/queue.c" type="1"/>
-    <File name="freeRTOS/include/heap_2.c" path="freeRTOS/include/heap_2.c" type="1"/>
     <File name="hardware/DHT11.c" path="hardware/DHT11.c" type="1"/>
     <File name="hardware/delay.c" path="hardware/delay.c" type="1"/>
     <File name="stm_lib/inc" path="" type="2"/>

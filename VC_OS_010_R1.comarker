@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <breakpoints>
 <breakpoint enabled="true" persistant="true" registered="true">
-<resource path="/VC_OS_010_R1/src/main.c" type="1"/>
-<marker lineNumber="21" type="org.eclipse.cdt.debug.core.cLineBreakpointMarker">
-<attrib name="message" value="Line breakpoint: main.c [line: 18]"/>
+<resource path="/VC_OS_010_R1/Terminal.c" type="1"/>
+<marker lineNumber="79" type="org.eclipse.cdt.debug.core.cLineBreakpointMarker">
+<attrib name="enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.condition" value=""/>
 <attrib name="org.eclipse.debug.core.id" value="org.eclipse.cdt.debug.core"/>
+<attrib name="workingset_name" value=""/>
 <attrib name="org.eclipse.cdt.debug.core.installCount" value="0"/>
-<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="E:\Proj\ODS\1111\src\main.c"/>
+<attrib name="type" value="org.eclipse.cdt.debug.core.cLineBreakpointMarker"/>
+<attrib name="persistant" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.breakpointType" value="0"/>
+<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
+<attrib name="message" value="Line breakpoint: Terminal.c [line: 74]"/>
+<attrib name="registered" value="true"/>
+<attrib name="path" value="/VC_OS_010_R1/Terminal.c"/>
+<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="E:\Proj\ODS\VC_OS_010_R1\Terminal.c"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="true"/>
-<attrib name="workingset_name" value=""/>
-<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
-</marker>
-</breakpoint>
-<breakpoint enabled="true" persistant="true" registered="true">
-<resource path="/VC_OS_010_R1/hardware/Device.c" type="1"/>
-<marker lineNumber="263" type="org.eclipse.cdt.debug.core.cLineBreakpointMarker">
-<attrib name="message" value="Line breakpoint: Device.c [line: 263]"/>
-<attrib name="org.eclipse.cdt.debug.core.condition" value=""/>
-<attrib name="org.eclipse.debug.core.id" value="org.eclipse.cdt.debug.core"/>
-<attrib name="org.eclipse.cdt.debug.core.installCount" value="0"/>
-<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="E:\Proj\ODS\1111\hardware\Device.c"/>
-<attrib name="org.eclipse.cdt.debug.core.breakpointType" value="0"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
-<attrib name="org.eclipse.debug.core.enabled" value="true"/>
-<attrib name="workingset_name" value=""/>
-<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
 </marker>
 </breakpoint>
 </breakpoints>
