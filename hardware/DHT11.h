@@ -8,8 +8,8 @@
 
 typedef struct
 {
-	char TERM[4];
-	char HUMID[4];
+	char TERM[2];
+	char HUMID[2];
 }DHT_DATA;
 
 // Модель сенсора
@@ -36,5 +36,7 @@ signed char dht_read_data(void);
 float dht_get_temperature(void);
 // Функция возвращает предварительно считанное функцией dht_read_data() значение влажности из DHT-11.
 float dht_get_humidity(void);
+
+void ReadDHT11(void);
 
 #endif

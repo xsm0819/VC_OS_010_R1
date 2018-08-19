@@ -4,8 +4,6 @@
 #include "misc.h"
 #include "string.h"
 #include "DHT11.h"
-#include "FreeRTOS.h"
-#include "task.h"
 
 static volatile char TerminalBufer[100];
 unsigned char count = 0;

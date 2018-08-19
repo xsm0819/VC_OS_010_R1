@@ -2,39 +2,81 @@
 #include "stm32f10x.h"
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_gpio.h"
-#include "FreeRTOS.h"
-#include "task.h"
 #include "Device.h"
 #include "Terminal.h"
-
-//--------------------------------------------------------------
-PinState IOState;
-
-void vTaskRW_IO(void *pvParameters);
-void vTaskReadDHT11(void *pvParameters);
+#include "main.h"
 
 
 //--------------------------------------------------------------
-int main(void) {
-
-	prvSetupHardware();
-	xTaskCreate( vTaskRW_IO, ( signed char * ) "Get and Set IO pins", configMINIMAL_STACK_SIZE, NULL, 2,
-			( xTaskHandle * ) NULL);
-	xTaskCreate( vTaskReadDHT11, ( signed char * ) "Sensor DHT11 result", configMINIMAL_STACK_SIZE, NULL, 2,
-			( xTaskHandle * ) NULL);
-
-	/* Start the scheduler. */
-	vTaskStartScheduler();
-
-	/* Will only get here if there was insufficient memory to create the idle
-	 task.  The idle task is created within vTaskStartScheduler(). */
-	for (;;)
-		;
+int main(void)
+{
+	while (1)
+	{
+		WorkProc();
+	}
 }
-/*-----------------------------------------------------------*/
 
-void vApplicationTickHook(void) {
 
-//	TimingDelay_Decrement();
+void WorkProc (void)
+{
+	switch(Windows)
+	{
+		case WND_Null:
+		{
+			Windows = WND_Starting;
+		}break;
+
+		case WND_Starting:
+		{
+			SetupHardware();
+			Windows = WND_ReadIO;
+		}break;
+
+		case WND_ReadIO:
+		{
+			RW_IO();
+			Windows = WND_SearchEvent;
+		}break;
+
+
+		case WND_GSM_Event:
+		{
+
+		}break;
+
+		case WND_ETH_Event:
+		{
+
+		}break;
+
+		case WND_ScanButton:
+		{
+
+		}break;
+
+		case WND_Calling:
+		{
+
+		}break;
+
+		case WND_ScanCall:
+		{
+
+		}break;
+
+		case WND_ScanSensor:
+		{
+
+		}break;
+
+		case WND_NevSettings:
+		{
+
+		}break;
+
+		case WND_SearchEvent:
+		{
+			Windows = WND_ReadIO;
+		}break;
+	}
 }
-/*-----------------------------------------------------------*/

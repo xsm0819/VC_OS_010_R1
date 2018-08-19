@@ -14,17 +14,14 @@ int DHT_BitTimeTreshold = 0;
 unsigned char dht_Buff[5];          // Буфер приёма из DHT
 
 DHT_DATA DHT11_RESULT;
-void vTaskReadDHT11(void *pvParameters)
+void ReadDHT11(void)
 {
-	while(1)
-	{
+
 		if (dht_read_data()==0)
 		{
-			sprintf(DHT11_RESULT.TERM, "%d*\n", dht_get_temperature());
-			sprintf(DHT11_RESULT.HUMID, "%d*\n", dht_get_humidity());
-			vTaskDelay(30000);
+			sprintf(DHT11_RESULT.TERM, "%d", dht_get_temperature());
+			sprintf(DHT11_RESULT.HUMID, "%d", dht_get_humidity());
 		}
-	}
 }
 
 //==============================================================================
@@ -133,6 +130,7 @@ unsigned char dht_chkbyte(void)
 //==============================================================================
 signed char dht_read_data(void)
 {
+
   for (int i = 0; i < 5; i++)
     dht_Buff[i] = 0;
   __disable_irq();

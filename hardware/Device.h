@@ -63,8 +63,34 @@ typedef struct
 	unsigned char C869;
 	unsigned char DoorMP;
 } PinState;
+
+#define Signal0	0
+#define Signal1	1
+#define Signal2	2
+#define Signal3	3
+#define Signal4	4
+#define LAN		5
+#define NotLan	6
+
+#define ActiveAudioMP	0
+#define ActiveAudioCab	1
+#define SystemMessedg	2
+#define NotE_NET		3
+#define NET_OK			4
+
+
+typedef struct
+{
+	unsigned char connectTyp;
+	unsigned char ENetStatus;
+	unsigned char Time[8];
+
+} StatusBar;
+
+extern unsigned long millis;
+
 //----------RTOS------------//
-void prvSetupHardware( void );
+void SetupHardware( void );
 
 
 //----------GPIO------------//
@@ -73,4 +99,5 @@ void GPIO_Initialise (void);
 void SetSysClock(void);
 void Calc_PLL	(void);
 void EnableClockPeriph (void);
-
+void RW_IO(void) ;
+void Print (void);

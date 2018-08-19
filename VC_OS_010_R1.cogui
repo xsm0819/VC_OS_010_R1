@@ -15,84 +15,34 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="E:/Proj/ODS/VC_OS_010_R1/src/main.c" title="main.c" tooltip="E:/Proj/ODS/VC_OS_010_R1/src/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/src/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="596" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Device.h" partName="Device.h" path="E:/Proj/ODS/VC_OS_010_R1/hardware/Device.h" title="Device.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/hardware/Device.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/Device.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="389" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" partName="Device.c" path="E:/Proj/ODS/VC_OS_010_R1/hardware/Device.c" title="Device.c" tooltip="E:/Proj/ODS/VC_OS_010_R1/hardware/Device.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" partName="Device.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" title="Device.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/Device.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="142" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9659" selectionTopPixel="5445"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.c" partName="DHT11.c" path="E:/Proj/ODS/VC_OS_010_R1/hardware/DHT11.c" title="DHT11.c" tooltip="E:/Proj/ODS/VC_OS_010_R1/hardware/DHT11.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/DHT11.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="517" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ico.h" partName="ico.h" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.h" title="ico.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ico.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4373" selectionTopPixel="2295"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.h" partName="DHT11.h" path="E:/Proj/ODS/VC_OS_010_R1/hardware/DHT11.h" title="DHT11.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/hardware/DHT11.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/DHT11.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="247" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="misc.h" partName="misc.h" path="E:/Proj/ODS/VC_OS_010_R1/stm_lib/inc/misc.h" title="misc.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/stm_lib/inc/misc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/stm_lib/inc/misc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="2860" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="task.h" partName="task.h" path="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/task.h" title="task.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/task.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/freeRTOS/include/task.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="69" selectionOffset="15662" selectionTopPixel="6285"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Terminal.c" partName="Terminal.c" path="E:/Proj/ODS/VC_OS_010_R1/Terminal.c" title="Terminal.c" tooltip="E:/Proj/ODS/VC_OS_010_R1/Terminal.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/Terminal.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="77" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Terminal.h" partName="Terminal.h" path="E:/Proj/ODS/VC_OS_010_R1/Terminal.h" title="Terminal.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/Terminal.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/Terminal.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="437" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" partName="FreeRTOSConfig.h" path="E:/Proj/ODS/VC_OS_010_R1/src/FreeRTOSConfig.h" title="FreeRTOSConfig.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/src/FreeRTOSConfig.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/src/FreeRTOSConfig.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="26" selectionOffset="3812" selectionTopPixel="930"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mpu_wrappers.h" partName="mpu_wrappers.h" path="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h" title="mpu_wrappers.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6245" selectionTopPixel="1635"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="port.c" partName="port.c" path="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/port.c" title="port.c" tooltip="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/port.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/freeRTOS/port.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="3855"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="portable.h" partName="portable.h" path="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/portable.h" title="portable.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/portable.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/freeRTOS/include/portable.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1574" selectionTopPixel="15"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="croutine.h" partName="croutine.h" path="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/croutine.h" title="croutine.h" tooltip="E:/Proj/ODS/VC_OS_010_R1/freeRTOS/include/croutine.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/freeRTOS/include/croutine.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ico.c" partName="ico.c" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.c" title="ico.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ico.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="84872" selectionTopPixel="16830"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="13">
 <expanded>
 <element path="/VC_OS_010_R1"/>
+<element path="/VC_OS_010_R1/hardware"/>
+<element path="/VC_OS_010_R1/LCD"/>
 </expanded>
+<selection>
+<element path="/VC_OS_010_R1/LCD/ico.c"/>
+</selection>
 </viewState>
 </view>
 <view id="org.coocox.component.ui.ComponentView" partName="Components">
@@ -111,7 +61,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -306,169 +256,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/src/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/DHT11.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/Device.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/tasks.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/Terminal.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/src/FreeRTOSConfig.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/include/task.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/port.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/include/portable.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/Device.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/freeRTOS/include/croutine.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/Terminal.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/src/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ssd1306.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ssd1306.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.c"/>
 </editors>
-<item historyLabel="DHT11.c" index="1">
-<position info="not_deleted" x="517" y="20"/>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="1098" y="5"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="328" y="17"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="8246" y="0"/>
 </item>
-<item historyLabel="DHT11.c" index="1">
-<position info="not_deleted" x="517" y="20"/>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="1135" y="7"/>
 </item>
-<item historyLabel="Device.c" index="2">
-<position info="not_deleted" x="6435" y="0"/>
+<item historyLabel="ssd1306.c" index="3">
+<position info="not_deleted" x="2375" y="0"/>
 </item>
-<item historyLabel="Device.c" index="2">
-<position info="not_deleted" x="6296" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="8180" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="742" y="0"/>
+<item historyLabel="ssd1306.c" index="3">
+<position info="not_deleted" x="1588" y="103"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
+<item historyLabel="ssd1306.h" index="4">
+<position info="not_deleted" x="2602" y="0"/>
+</item>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="8326" y="0"/>
+</item>
+<item historyLabel="ssd1306.c" index="3">
+<position info="not_deleted" x="2191" y="0"/>
+</item>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="8304" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="281" y="0"/>
+</item>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="8482" y="9"/>
+</item>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="4028" y="8"/>
+</item>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="692" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="280" y="0"/>
+</item>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="4028" y="8"/>
+</item>
+<item historyLabel="Device.c" index="0">
 <position/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="107" y="40"/>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="2598" y="9"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="184" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9808" y="0"/>
 </item>
-<item historyLabel="tasks.c" index="3">
-<position info="not_deleted" x="62230" y="0"/>
+<item historyLabel="ico.c" index="5">
+<position info="not_deleted" x="84839" y="5"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="740" y="0"/>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="2598" y="9"/>
 </item>
-<item historyLabel="DHT11.c" index="1">
-<position info="not_deleted" x="517" y="20"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="184" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
+<item historyLabel="Device.c" index="0">
 <position/>
 </item>
-<item historyLabel="FreeRTOSConfig.h" index="5">
-<position info="not_deleted" x="3812" y="26"/>
+<item historyLabel="ico.c" index="5">
+<position info="not_deleted" x="84852" y="0"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="1874" y="0"/>
+<item historyLabel="ico.h" index="1">
+<position info="not_deleted" x="2598" y="9"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="362" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9399" y="0"/>
 </item>
-<item historyLabel="tasks.c" index="3">
-<position info="not_deleted" x="62230" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="287" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="452" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="2082" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="2103" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="3195" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
+<item historyLabel="ico.h" index="6">
 <position/>
 </item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="15667" y="11"/>
-</item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="15694" y="0"/>
-</item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="15686" y="0"/>
-</item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="3731" y="0"/>
-</item>
-<item historyLabel="Terminal.c" index="4">
+<item historyLabel="ico.c" index="7">
 <position/>
 </item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="15719" y="0"/>
+<item historyLabel="ico.h" index="6">
+<position/>
 </item>
-<item historyLabel="mpu_wrappers.h" index="7">
-<position info="not_deleted" x="6245" y="0"/>
+<item historyLabel="ico.c" index="7">
+<position/>
 </item>
-<item historyLabel="port.c" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ico.h" index="6">
+<position/>
 </item>
-<item historyLabel="portable.h" index="9">
-<position info="not_deleted" x="1574" y="0"/>
+<item historyLabel="ico.c" index="7">
+<position info="not_deleted" x="84168" y="0"/>
 </item>
-<item historyLabel="task.h" index="6">
-<position info="not_deleted" x="15662" y="69"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9399" y="0"/>
 </item>
-<item historyLabel="DHT11.c" index="1">
-<position info="not_deleted" x="517" y="20"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9785" y="66"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="452" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9884" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9785" y="66"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="1260" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9740" y="0"/>
 </item>
-<item historyLabel="Device.h" index="10">
-<position info="not_deleted" x="389" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position/>
 </item>
-<item historyLabel="Device.c" index="2">
-<position info="not_deleted" x="1648" y="10"/>
+<item historyLabel="ico.c" index="7">
+<position info="not_deleted" x="85456" y="0"/>
 </item>
-<item historyLabel="croutine.h" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ico.h" index="6">
+<position info="not_deleted" x="4393" y="0"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="338" y="0"/>
+<item historyLabel="ico.c" index="7">
+<position info="not_deleted" x="85419" y="0"/>
 </item>
-<item historyLabel="Terminal.h" index="12">
-<position info="not_deleted" x="437" y="17"/>
+<item historyLabel="ico.h" index="6">
+<position info="not_deleted" x="4504" y="0"/>
 </item>
-<item historyLabel="Device.c" index="2">
-<position info="not_deleted" x="142" y="0"/>
+<item historyLabel="ico.c" index="7">
+<position info="not_deleted" x="84872" y="9"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="338" y="0"/>
+<item historyLabel="ico.h" index="6">
+<position info="not_deleted" x="4504" y="0"/>
 </item>
-<item historyLabel="Terminal.h" index="12">
-<position info="not_deleted" x="437" y="17"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9696" y="0"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="1228" y="15"/>
+<item historyLabel="ico.c" index="7">
+<position info="not_deleted" x="84872" y="9"/>
 </item>
-<item historyLabel="Device.c" index="2">
-<position info="not_deleted" x="142" y="0"/>
+<item historyLabel="ico.h" index="6">
+<position info="not_deleted" x="4373" y="0"/>
 </item>
-<item historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="1228" y="15"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9661" y="72"/>
 </item>
-<item active="true" historyLabel="Terminal.c" index="4">
-<position info="not_deleted" x="783" y="0"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9735" y="0"/>
+</item>
+<item active="true" historyLabel="Device.c" index="0">
+<position info="not_deleted" x="9661" y="72"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -477,35 +422,14 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="croutine.h" tooltip="VC_OS_010_R1/freeRTOS/include/croutine.h">
-<persistable path="/VC_OS_010_R1/freeRTOS/include/croutine.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ico.c" tooltip="VC_OS_010_R1/LCD/ico.c">
+<persistable path="/VC_OS_010_R1/LCD/ico.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="portable.h" tooltip="VC_OS_010_R1/freeRTOS/include/portable.h">
-<persistable path="/VC_OS_010_R1/freeRTOS/include/portable.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ico.h" tooltip="VC_OS_010_R1/LCD/ico.h">
+<persistable path="/VC_OS_010_R1/LCD/ico.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="port.c" tooltip="VC_OS_010_R1/freeRTOS/port.c">
-<persistable path="/VC_OS_010_R1/freeRTOS/port.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mpu_wrappers.h" tooltip="VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h">
-<persistable path="/VC_OS_010_R1/freeRTOS/include/mpu_wrappers.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" tooltip="VC_OS_010_R1/src/FreeRTOSConfig.h">
-<persistable path="/VC_OS_010_R1/src/FreeRTOSConfig.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Terminal.h" tooltip="VC_OS_010_R1/Terminal.h">
-<persistable path="/VC_OS_010_R1/Terminal.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Terminal.c" tooltip="VC_OS_010_R1/Terminal.c">
-<persistable path="/VC_OS_010_R1/Terminal.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="task.h" tooltip="VC_OS_010_R1/freeRTOS/include/task.h">
-<persistable path="/VC_OS_010_R1/freeRTOS/include/task.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tasks.c" tooltip="VC_OS_010_R1/freeRTOS/tasks.c">
-<persistable path="/VC_OS_010_R1/freeRTOS/tasks.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="misc.h" tooltip="VC_OS_010_R1/stm_lib/inc/misc.h">
-<persistable path="/VC_OS_010_R1/stm_lib/inc/misc.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.c" tooltip="VC_OS_010_R1/LCD/fonts.c">
+<persistable path="/VC_OS_010_R1/LCD/fonts.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.h" tooltip="VC_OS_010_R1/hardware/DHT11.h">
 <persistable path="/VC_OS_010_R1/hardware/DHT11.h"/>
@@ -513,14 +437,36 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.c" tooltip="VC_OS_010_R1/hardware/DHT11.c">
 <persistable path="/VC_OS_010_R1/hardware/DHT11.c"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.c" tooltip="VC_OS_010_R1/hardware/delay.c">
+<persistable path="/VC_OS_010_R1/hardware/delay.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.h" tooltip="VC_OS_010_R1/LCD/fonts.h">
+<persistable path="/VC_OS_010_R1/LCD/fonts.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.h" tooltip="VC_OS_010_R1/LCD/ssd1306.h">
+<persistable path="/VC_OS_010_R1/LCD/ssd1306.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.c" tooltip="VC_OS_010_R1/LCD/ssd1306.c">
+<persistable path="/VC_OS_010_R1/LCD/ssd1306.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" tooltip="VC_OS_010_R1/hardware/Device.c">
 <persistable path="/VC_OS_010_R1/hardware/Device.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.h" tooltip="VC_OS_010_R1/hardware/Device.h">
-<persistable path="/VC_OS_010_R1/hardware/Device.h"/>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.h" tooltip="VC_OS_010_R1/hardware/Device.h">
-<persistable path="/VC_OS_010_R1/hardware/Device.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.h" tooltip="ssd1306/graph.h">
+<persistable path="/ssd1306/graph.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.c" tooltip="ssd1306/graph.c">
+<persistable path="/ssd1306/graph.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.c" tooltip="ssd1306/fonts.c">
+<persistable path="/ssd1306/fonts.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.h" tooltip="ssd1306/fonts.h">
+<persistable path="/ssd1306/fonts.h"/>
 </file>
 </mruList>
 </workbench>
