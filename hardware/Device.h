@@ -1,7 +1,7 @@
 #include "stm32f10x.h"
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_rcc.h"
-
+#include "inttypes.h"
 //----------RCC-------------//
 #define F_HSE	8000000		//MHz
 #define F_CPU	72000000UL
@@ -42,6 +42,24 @@
 #define	RST_SD(x)		GPIO_WriteBit(GPIOC, GPIO_Pin_5, !(x))
 #define	CS_SD(x)		GPIO_WriteBit(GPIOA, GPIO_Pin_15, !(x))
 
+#define USERS			1
+#define ADMIN			5
+
+
+#define CH1_WRITE		2
+#define CH2_WRITE		3
+#define PRINT_LOG		4
+
+#define NormalStateO1	6
+#define NormalStateO2	7
+#define GSM_APN			8
+#define GSM_USER		9
+#define GSM_PASS		10
+#define TimReflesh		11
+#define TimeDate		12
+#define PASSWOR 		13
+
+
 //----struct for state IO pins-----//
 typedef struct
 {
@@ -63,6 +81,8 @@ typedef struct
 	unsigned char C869;
 	unsigned char DoorMP;
 } PinState;
+
+static uint32_t TimDelay1, TimDelay2, TimDelay3;
 
 #define Signal0	0
 #define Signal1	1

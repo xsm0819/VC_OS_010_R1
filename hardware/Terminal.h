@@ -12,6 +12,8 @@ extern char PASSWORD[8];
 #define CMD_EndSession		"END"
 #define CMD_ADMIN			"ADMIN"
 #define CMD_USER			"USER"
+#define CMD_STOP_GSM_COMMAND	"GSM_CMD_DISABLE"
+#define CMD_START_GSM_COMMAND	"GSM_CMD_ENABLE"
 
 #define CMD_SENSOR_MP		"SENS_MP"
 

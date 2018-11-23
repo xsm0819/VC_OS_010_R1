@@ -3,7 +3,8 @@
 #include "stm32f10x_gpio.h"
 #include "misc.h"
 #include "string.h"
-#include "DHT11.h"
+#include "dht.h"
+#include "GSM.h"
 
 static volatile char TerminalBufer[100];
 unsigned char count = 0;
@@ -55,6 +56,8 @@ void Terminal_Send_String(char* str)
 }
 
 
+unsigned char GsmTermSession = 1, LevelAccess = 0;
+
 		// Обработчик всех прерываний от USART1
 void USART1_IRQHandler(void)
 {
@@ -63,13 +66,18 @@ void USART1_IRQHandler(void)
 		{
 		USART1->SR&=~USART_SR_RXNE;
 		TerminalBufer[count] = USART1->DR;
+
 		if (TerminalBufer[count]=='\n')
+		{
+			if (GsmTermSession)
+						GSM_Send_String(TerminalBufer);
 			Search_Command();
+		}
 		else
 			count++;
 		}
 }
-unsigned char LevelAccess = 0;
+
 void Search_Command (void)
 {
 		if ((strstr(TerminalBufer, CMD_StartSession))!=0)
@@ -113,6 +121,16 @@ void Search_Command (void)
 				DHT_DATA data;
 				sprintf(SendBuf, "%s;\n%s;\n", data.TERM, data.HUMID);
 				Terminal_Send_String(SendBuf);
+			}
+			else if ((strstr(TerminalBufer, CMD_START_GSM_COMMAND))!=0)
+			{
+				GsmTermSession = 1;
+				Terminal_Send_String("Start GSM Command Session\n");
+			}
+			else if ((strstr(TerminalBufer, CMD_STOP_GSM_COMMAND))!=0)
+			{
+				GsmTermSession = 0;
+				Terminal_Send_String("Stop GSM Command Session\n");
 			}
 		}
 		else Terminal_Send_String("Command NOT CORRECT\n");

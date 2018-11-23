@@ -5,9 +5,12 @@
 #include "Device.h"
 #include "Terminal.h"
 #include "main.h"
+#include "Audio.h"
 
 
 //--------------------------------------------------------------
+
+char LCD_REFRESH = 0;
 int main(void)
 {
 	while (1)
@@ -28,8 +31,9 @@ void WorkProc (void)
 
 		case WND_Starting:
 		{
+			LCD_REFRESH = 0;
 			SetupHardware();
-			Windows = WND_ReadIO;
+			Windows = WND_GSM_Event;
 		}break;
 
 		case WND_ReadIO:
@@ -41,7 +45,9 @@ void WorkProc (void)
 
 		case WND_GSM_Event:
 		{
-
+			InitAudioMP();
+			Windows = WND_ReadIO;
+			//InitGSM();
 		}break;
 
 		case WND_ETH_Event:

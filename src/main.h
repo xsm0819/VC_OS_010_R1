@@ -1,5 +1,5 @@
 static unsigned char Windows = 0;
-
+extern char LCD_REFRESH;
 
 //////////	windows
 #define WND_Null		0

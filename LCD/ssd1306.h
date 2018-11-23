@@ -88,6 +88,7 @@ typedef enum {
 } SSD1306_COLOR_t;
 
 void PrintIcon (char *icon, uint16_t W, uint16_t H, uint16_t NX, uint16_t NY,  SSD1306_COLOR_t color);
+
 /**
  * @brief  Initializes SSD1306 LCD
  * @param  None

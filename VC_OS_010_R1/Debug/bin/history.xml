@@ -1,35 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=VC_OS_010_R1.map -O0 --gc-sections -LE:\UTILITES\CoIDE\configuration\ProgramData\VC_OS_010_R1 -TE:\UTILITES\CoIDE\configuration\ProgramData\VC_OS_010_R1/arm-gcc-link.ld -g">
-      <target file="VC_OS_010_R1.elf" lastModified="165512609a3">
-         <source file="..\obj\stm32f10x_rtc.o" lastModified="1654f806866"/>
-         <source file="..\obj\delay.o" lastModified="1654f80690e"/>
-         <source file="..\obj\stm32f10x_tim.o" lastModified="1654f806c47"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="1654f806d57"/>
-         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="1654f806e1a"/>
-         <source file="..\obj\stm32f10x_pwr.o" lastModified="1654f806f30"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="1654f80708a"/>
-         <source file="..\obj\stm32f10x_dac.o" lastModified="1654f8071ac"/>
-         <source file="..\obj\main.o" lastModified="1654f8072a5"/>
-         <source file="..\obj\Terminal.o" lastModified="1654f8074af"/>
-         <source file="..\obj\printf.o" lastModified="1654f8079aa"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="1654f807be1"/>
-         <source file="..\obj\Device.o" lastModified="16551260659"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="1654f80813f"/>
-         <source file="..\obj\fonts.o" lastModified="1654f8083a3"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="1654f8085fe"/>
-         <source file="..\obj\dht.o" lastModified="1654f80875f"/>
-         <source file="..\obj\syscalls.o" lastModified="1654f808918"/>
-         <source file="..\obj\stm32f10x_flash.o" lastModified="1654f808b44"/>
-         <source file="..\obj\ssd1306_i2c.o" lastModified="1654f808d29"/>
-         <source file="..\obj\stm32f10x_dma.o" lastModified="1654f808ed5"/>
-         <source file="..\obj\ico.o" lastModified="1654f80911a"/>
-         <source file="..\obj\ico2.o" lastModified="1654f809206"/>
-         <source file="..\obj\misc.o" lastModified="1654f809327"/>
-         <source file="..\obj\ssd1306.o" lastModified="1654f8095e0"/>
-         <source file="..\obj\stm32f10x_spi.o" lastModified="1654f8097b0"/>
-         <source file="..\obj\stm32f10x_i2c.o" lastModified="1654f8099b6"/>
-         <source file="..\obj\stm32f10x_iwdg.o" lastModified="1654f809ad1"/>
+      <target file="VC_OS_010_R1.elf" lastModified="165cf445f84">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="165cf3f01bd"/>
+         <source file="..\obj\delay.o" lastModified="165cf3f02f5"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="165cf3f05d2"/>
+         <source file="..\obj\RealTimeClock.o" lastModified="165cf3f0842"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="165cf3f096a"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="165cf3f0a26"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="165cf3f0b3e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="165cf3f0c86"/>
+         <source file="..\obj\stm32f10x_dac.o" lastModified="165cf3f0d9f"/>
+         <source file="..\obj\main.o" lastModified="165cf3f0f06"/>
+         <source file="..\obj\Terminal.o" lastModified="165cf3f1378"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="165cf3f1675"/>
+         <source file="..\obj\Device.o" lastModified="165cf445a37"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="165cf3f1d29"/>
+         <source file="..\obj\fonts.o" lastModified="165cf3f1ebe"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="165cf3f2312"/>
+         <source file="..\obj\dht.o" lastModified="165cf3f2479"/>
+         <source file="..\obj\syscalls.o" lastModified="165cf3f25e0"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="165cf3f2821"/>
+         <source file="..\obj\ssd1306_i2c.o" lastModified="165cf3f2a62"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="165cf3f2bc9"/>
+         <source file="..\obj\ico.o" lastModified="165cf3f2d3f"/>
+         <source file="..\obj\GSM.o" lastModified="165cf3f3116"/>
+         <source file="..\obj\ico2.o" lastModified="165cf3f322f"/>
+         <source file="..\obj\misc.o" lastModified="165cf3f34af"/>
+         <source file="..\obj\Audio.o" lastModified="165cf3f398f"/>
+         <source file="..\obj\ssd1306.o" lastModified="165cf3f3bd0"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="165cf3f3df2"/>
+         <source file="..\obj\CallBoard.o" lastModified="165cf434476"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="165cf3f4207"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="165cf3f435e"/>
       </target>
    </processor>
 </history>

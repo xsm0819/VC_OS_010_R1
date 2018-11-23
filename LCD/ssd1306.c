@@ -75,19 +75,19 @@ void PrintIcon (char *icon, uint16_t W, uint16_t H, uint16_t NX, uint16_t NY,  S
 				else SSD1306_DrawPixel(X+NX+7, Y+NY, !color);
 				X+=8;
 				count++;
-				if ((X)>=W)
+				if (X >= W)
 				{
-					X=0;
+					X = 0;
 					Y++;
 				}
 	}
-
 }
-
 
 uint8_t SSD1306_Init(void) {
 
 	/* Init I2C */
+
+	ssd1306_I2C_Init();
 	
 	/* Check if LCD connected to I2C */
 	if (!ssd1306_I2C_IsDeviceConnected(SSD1306_I2C, SSD1306_I2C_ADDR)) {
@@ -130,12 +130,12 @@ uint8_t SSD1306_Init(void) {
 	SSD1306_WRITECOMMAND(0x14); //
 	SSD1306_WRITECOMMAND(0xAF); //--turn on SSD1306 panel
 	
-	/* Clear screen */
+	/* Clear screen
 	SSD1306_Fill(SSD1306_COLOR_BLACK);
 	
-	/* Update screen */
+	// Update screen
 	SSD1306_UpdateScreen();
-	
+	*/
 	/* Set default values */
 	SSD1306.CurrentX = 0;
 	SSD1306.CurrentY = 0;
@@ -149,7 +149,6 @@ uint8_t SSD1306_Init(void) {
 
 void SSD1306_UpdateScreen(void) {
 	uint8_t m;
-	
 	for (m = 0; m < 8; m++) {
 		SSD1306_WRITECOMMAND(0xB0 + m);
 		SSD1306_WRITECOMMAND(0x00);
@@ -494,13 +493,11 @@ void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t
 	int16_t ddF_y = -2 * r;
 	int16_t x = 0;
 	int16_t y = r;
-
     SSD1306_DrawPixel(x0, y0 + r, c);
     SSD1306_DrawPixel(x0, y0 - r, c);
     SSD1306_DrawPixel(x0 + r, y0, c);
     SSD1306_DrawPixel(x0 - r, y0, c);
     SSD1306_DrawLine(x0 - r, y0, x0 + r, y0, c);
-
     while (x < y) {
         if (f >= 0) {
             y--;
@@ -510,10 +507,8 @@ void SSD1306_DrawFilledCircle(int16_t x0, int16_t y0, int16_t r, SSD1306_COLOR_t
         x++;
         ddF_x += 2;
         f += ddF_x;
-
         SSD1306_DrawLine(x0 - x, y0 + y, x0 + x, y0 + y, c);
         SSD1306_DrawLine(x0 + x, y0 - y, x0 - x, y0 - y, c);
-
         SSD1306_DrawLine(x0 + y, y0 + x, x0 - y, y0 + x, c);
         SSD1306_DrawLine(x0 + y, y0 - x, x0 - y, y0 - x, c);
     }
@@ -543,7 +538,8 @@ void SSD1306_ON(void) {
 	SSD1306_WRITECOMMAND(0x14);  
 	SSD1306_WRITECOMMAND(0xAF);  
 }
-void SSD1306_OFF(void) {
+void SSD1306_OFF(void)
+{
 	SSD1306_WRITECOMMAND(0x8D);  
 	SSD1306_WRITECOMMAND(0x10);
 	SSD1306_WRITECOMMAND(0xAE);  

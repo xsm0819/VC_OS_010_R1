@@ -13,35 +13,84 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="6"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" partName="Device.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" title="Device.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" partName="Device.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" title="Device.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/Device.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9659" selectionTopPixel="5445"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1216" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ico.h" partName="ico.h" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.h" title="ico.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ico.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4373" selectionTopPixel="2295"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Audio.c" partName="Audio.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Audio.c" title="Audio.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Audio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/Audio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5061" selectionTopPixel="2145"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ico.c" partName="ico.c" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.c" title="ico.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ico.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ico.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="84872" selectionTopPixel="16830"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Audio.h" partName="Audio.h" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Audio.h" title="Audio.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Audio.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/Audio.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="141" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" partName="stm32f10x_gpio.c" path="E:/Proj/ODS/VC_OS_010_R2/stm_lib/src/stm32f10x_gpio.c" title="stm32f10x_gpio.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/stm_lib/src/stm32f10x_gpio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/stm_lib/src/stm32f10x_gpio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9307" selectionTopPixel="4275"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.c" partName="ssd1306.c" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ssd1306.c" title="ssd1306.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ssd1306.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ssd1306.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5110" selectionTopPixel="2133"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="dht.c" partName="dht.c" path="E:/Proj/ODS/VC_OS_010_R2/dht/dht.c" title="dht.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/dht/dht.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/dht/dht.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6532" selectionTopPixel="2820"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Device.h" partName="Device.h" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.h" title="Device.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Device.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/Device.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="765" selectionTopPixel="140"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Terminal.c" partName="Terminal.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/Terminal.c" title="Terminal.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/Terminal.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/Terminal.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1830"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.h" partName="ssd1306.h" path="E:/Proj/ODS/VC_OS_010_R2/LCD/ssd1306.h" title="ssd1306.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/LCD/ssd1306.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/LCD/ssd1306.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3070" selectionTopPixel="1269"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="CallBoard.c" partName="CallBoard.c" path="E:/Proj/ODS/VC_OS_010_R2/CallBoard.c" title="CallBoard.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/CallBoard.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/CallBoard.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="44" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="CallBoard.h" partName="CallBoard.h" path="E:/Proj/ODS/VC_OS_010_R2/CallBoard.h" title="CallBoard.h" tooltip="E:/Proj/ODS/VC_OS_010_R2/CallBoard.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/CallBoard.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="39" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="RealTimeClock.c" partName="RealTimeClock.c" path="E:/Proj/ODS/VC_OS_010_R2/hardware/RealTimeClock.c" title="RealTimeClock.c" tooltip="E:/Proj/ODS/VC_OS_010_R2/hardware/RealTimeClock.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VC_OS_010_R1/hardware/RealTimeClock.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="5895" selectionTopPixel="2955"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState>
+<ExpressionKeySet ExpKeys="AudioA,"/>
+</viewState>
+</view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="13">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/VC_OS_010_R1"/>
 <element path="/VC_OS_010_R1/hardware"/>
-<element path="/VC_OS_010_R1/LCD"/>
 </expanded>
 <selection>
-<element path="/VC_OS_010_R1/LCD/ico.c"/>
+<element path="/VC_OS_010_R1/hardware/Device.c"/>
 </selection>
 </viewState>
 </view>
@@ -55,6 +104,12 @@
 </viewState>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 <view id="org.coocox.component.ui.Help" partName="Help">
@@ -94,6 +149,7 @@
 <view id="org.coocox.component.ui.ComponentView"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
 <fastViewBars/>
@@ -114,7 +170,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@c5a774" ratio="0.6996587" ratioLeft="410" ratioRight="176" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1e4d9">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.search.ui.views.SearchView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -125,14 +181,15 @@
 </info>
 <info part="org.coocox.builder.ui.exampleView" ratio="0.22583026" ratioLeft="306" ratioRight="1049" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1e4d9"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1c34da2" ratio="0.7190635" ratioLeft="430" ratioRight="168" relationship="2" relative="org.coocox.builder.ui.exampleView">
-<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
 <page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -193,6 +250,8 @@
 <hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
 <hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
 <fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1c6ece5" orientation="512" selectedTabId="org.eclipse.search.ui.views.SearchView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.search.ui.views.SearchView" ratio="0.29977462"/>
 </fastViews>
 </fastViewBar>
@@ -234,10 +293,12 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f48488" ratio="0.7439759" ratioLeft="988" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f2b166">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
-<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1f48488" ratio="0.7439759" ratioLeft="988" ratioRight="340" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f2b166">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.coocox.codebugger.trace.ui.traceview" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@6b1fe5" ratio="0.5444915" ratioLeft="514" ratioRight="430" relationship="2" relative="org.eclipse.ui.internal.ViewStack@f2b166">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView:PIN_CLONE_VIEW_1" label="LabelNotFound"/>
@@ -257,163 +318,167 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/Device.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/src/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ssd1306.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ssd1306.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/LCD/ico.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/Terminal.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/Audio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/Audio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/CallBoard.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/CallBoard.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/Device.h"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/VC_OS_010_R1/hardware/RealTimeClock.c"/>
 </editors>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="1098" y="5"/>
+<item historyLabel="ssd1306.h" index="2">
+<position info="not_deleted" x="3070" y="0"/>
+</item>
+<item historyLabel="ssd1306.c" index="1">
+<position info="not_deleted" x="5110" y="0"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="8246" y="0"/>
-</item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="1135" y="7"/>
-</item>
-<item historyLabel="ssd1306.c" index="3">
-<position info="not_deleted" x="2375" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="8180" y="0"/>
-</item>
-<item historyLabel="ssd1306.c" index="3">
-<position info="not_deleted" x="1588" y="103"/>
-</item>
-<item historyLabel="ssd1306.h" index="4">
-<position info="not_deleted" x="2602" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="8326" y="0"/>
-</item>
-<item historyLabel="ssd1306.c" index="3">
-<position info="not_deleted" x="2191" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="8304" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="281" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="8482" y="9"/>
-</item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="4028" y="8"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="692" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="280" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="1296" y="0"/>
-</item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="4028" y="8"/>
+<position info="not_deleted" x="57" y="9"/>
 </item>
 <item historyLabel="Device.c" index="0">
 <position/>
 </item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="2598" y="9"/>
+<item historyLabel="Device.c" index="0">
+<position info="not_deleted" x="1561" y="10"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9808" y="0"/>
-</item>
-<item historyLabel="ico.c" index="5">
-<position info="not_deleted" x="84839" y="5"/>
-</item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="2598" y="9"/>
+<position info="not_deleted" x="1495" y="0"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position/>
+<position info="not_deleted" x="1906" y="10"/>
 </item>
-<item historyLabel="ico.c" index="5">
-<position info="not_deleted" x="84852" y="0"/>
+<item historyLabel="Terminal.c" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ico.h" index="1">
-<position info="not_deleted" x="2598" y="9"/>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="2870" y="31"/>
 </item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9399" y="0"/>
+<item historyLabel="Audio.h" index="5">
+<position info="not_deleted" x="139" y="0"/>
 </item>
-<item historyLabel="ico.h" index="6">
-<position/>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="5095" y="0"/>
 </item>
-<item historyLabel="ico.c" index="7">
-<position/>
+<item historyLabel="Audio.h" index="5">
+<position info="not_deleted" x="141" y="0"/>
 </item>
-<item historyLabel="ico.h" index="6">
-<position/>
-</item>
-<item historyLabel="ico.c" index="7">
-<position/>
-</item>
-<item historyLabel="ico.h" index="6">
-<position/>
-</item>
-<item historyLabel="ico.c" index="7">
-<position info="not_deleted" x="84168" y="0"/>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="4774" y="0"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9399" y="0"/>
+<position info="not_deleted" x="1766" y="0"/>
+</item>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="4774" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2659" y="0"/>
+</item>
+<item historyLabel="CallBoard.h" index="7">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="179" y="36"/>
+</item>
+<item historyLabel="CallBoard.h" index="7">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2073" y="24"/>
+</item>
+<item historyLabel="CallBoard.h" index="7">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2287" y="12"/>
+</item>
+<item historyLabel="CallBoard.h" index="7">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2287" y="12"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2648" y="0"/>
+</item>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="5061" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="493" y="55"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="1961" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2242" y="13"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9785" y="66"/>
+<position info="not_deleted" x="1766" y="0"/>
+</item>
+<item historyLabel="Device.h" index="8">
+<position info="not_deleted" x="765" y="11"/>
+</item>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="5061" y="0"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9884" y="0"/>
+<position info="not_deleted" x="1766" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2242" y="13"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2259" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2248" y="0"/>
+</item>
+<item historyLabel="Device.h" index="8">
+<position info="not_deleted" x="765" y="11"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="2248" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="44" y="0"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9785" y="66"/>
+<position info="not_deleted" x="1766" y="0"/>
+</item>
+<item historyLabel="Audio.c" index="4">
+<position info="not_deleted" x="5061" y="0"/>
+</item>
+<item historyLabel="CallBoard.c" index="6">
+<position info="not_deleted" x="44" y="0"/>
+</item>
+<item historyLabel="CallBoard.h" index="7">
+<position info="not_deleted" x="39" y="11"/>
 </item>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9740" y="0"/>
+<position info="not_deleted" x="1766" y="0"/>
 </item>
+<item historyLabel="Configuration" index="9"/>
 <item historyLabel="Device.c" index="0">
-<position/>
+<position info="not_deleted" x="1216" y="0"/>
 </item>
-<item historyLabel="ico.c" index="7">
-<position info="not_deleted" x="85456" y="0"/>
-</item>
-<item historyLabel="ico.h" index="6">
-<position info="not_deleted" x="4393" y="0"/>
-</item>
-<item historyLabel="ico.c" index="7">
-<position info="not_deleted" x="85419" y="0"/>
-</item>
-<item historyLabel="ico.h" index="6">
-<position info="not_deleted" x="4504" y="0"/>
-</item>
-<item historyLabel="ico.c" index="7">
-<position info="not_deleted" x="84872" y="9"/>
-</item>
-<item historyLabel="ico.h" index="6">
-<position info="not_deleted" x="4504" y="0"/>
-</item>
+<item historyLabel="Configuration" index="10"/>
 <item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9696" y="0"/>
+<position info="not_deleted" x="1216" y="0"/>
 </item>
-<item historyLabel="ico.c" index="7">
-<position info="not_deleted" x="84872" y="9"/>
-</item>
-<item historyLabel="ico.h" index="6">
-<position info="not_deleted" x="4373" y="0"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9661" y="72"/>
-</item>
-<item historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9735" y="0"/>
-</item>
-<item active="true" historyLabel="Device.c" index="0">
-<position info="not_deleted" x="9661" y="72"/>
+<item active="true" historyLabel="RealTimeClock.c" index="11">
+<position info="not_deleted" x="5794" y="7"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -422,51 +487,51 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ico.c" tooltip="VC_OS_010_R1/LCD/ico.c">
-<persistable path="/VC_OS_010_R1/LCD/ico.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RealTimeClock.c" tooltip="VC_OS_010_R1/hardware/RealTimeClock.c">
+<persistable path="/VC_OS_010_R1/hardware/RealTimeClock.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ico.h" tooltip="VC_OS_010_R1/LCD/ico.h">
-<persistable path="/VC_OS_010_R1/LCD/ico.h"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdio.h" tooltip="E:\UTILITES\5.4 2016q3\arm-none-eabi\include\stdio.h">
+<persistable path="E:\UTILITES\5.4 2016q3\arm-none-eabi\include\stdio.h" project="VC-CB-010"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.c" tooltip="VC_OS_010_R1/LCD/fonts.c">
-<persistable path="/VC_OS_010_R1/LCD/fonts.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.h" tooltip="VC_OS_010_R1/hardware/DHT11.h">
-<persistable path="/VC_OS_010_R1/hardware/DHT11.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DHT11.c" tooltip="VC_OS_010_R1/hardware/DHT11.c">
-<persistable path="/VC_OS_010_R1/hardware/DHT11.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.c" tooltip="VC_OS_010_R1/hardware/delay.c">
-<persistable path="/VC_OS_010_R1/hardware/delay.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.h" tooltip="VC_OS_010_R1/LCD/fonts.h">
-<persistable path="/VC_OS_010_R1/LCD/fonts.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.h" tooltip="VC_OS_010_R1/LCD/ssd1306.h">
-<persistable path="/VC_OS_010_R1/LCD/ssd1306.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ssd1306.c" tooltip="VC_OS_010_R1/LCD/ssd1306.c">
-<persistable path="/VC_OS_010_R1/LCD/ssd1306.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.c" tooltip="VC_OS_010_R1/hardware/Device.c">
-<persistable path="/VC_OS_010_R1/hardware/Device.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="printf.c" tooltip="VC-CB-010/stdio/printf.c">
+<persistable path="/VC-CB-010/stdio/printf.c"/>
 </file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage/>
 </persistable>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.h" tooltip="ssd1306/graph.h">
-<persistable path="/ssd1306/graph.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="delay.c" tooltip="VC-CB-010/delay.c">
+<persistable path="/VC-CB-010/delay.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="graph.c" tooltip="ssd1306/graph.c">
-<persistable path="/ssd1306/graph.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx.h" tooltip="VC-CB-010/cmsis_boot/stm32f0xx.h">
+<persistable path="/VC-CB-010/cmsis_boot/stm32f0xx.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.c" tooltip="ssd1306/fonts.c">
-<persistable path="/ssd1306/fonts.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_conf.h" tooltip="VC-CB-010/cmsis_boot/stm32f0xx_conf.h">
+<persistable path="/VC-CB-010/cmsis_boot/stm32f0xx_conf.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fonts.h" tooltip="ssd1306/fonts.h">
-<persistable path="/ssd1306/fonts.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="VC-CB-010/main.c">
+<persistable path="/VC-CB-010/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_gpio.h" tooltip="VC-CB-010/stm32_lib/inc/stm32f0xx_gpio.h">
+<persistable path="/VC-CB-010/stm32_lib/inc/stm32f0xx_gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dht.h" tooltip="VC-CB-010/dht.h">
+<persistable path="/VC-CB-010/dht.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dht.c" tooltip="VC-CB-010/dht.c">
+<persistable path="/VC-CB-010/dht.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="System.h" tooltip="VC-CB-010/System.h">
+<persistable path="/VC-CB-010/System.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="System.c" tooltip="VC-CB-010/System.c">
+<persistable path="/VC-CB-010/System.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Device.h" tooltip="VC-CB-010/Device.h">
+<persistable path="/VC-CB-010/Device.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f0xx_adc.c" tooltip="Call/stm32_lib/src/stm32f0xx_adc.c">
+<persistable path="/Call/stm32_lib/src/stm32f0xx_adc.c"/>
 </file>
 </mruList>
 </workbench>

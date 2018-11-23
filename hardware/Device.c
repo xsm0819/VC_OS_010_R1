@@ -5,6 +5,8 @@
 #include "ico.h"
 #include "dht.h"
 #include "main.h"
+#include "RealTimeClock.h"
+#include "GSM.h"
 
 PinState IOState;
 StatusBar State;
@@ -21,7 +23,7 @@ void StartIcons (void)
 	PrintIcon (wel1_ICO, wel1WP, wel1HP, 0, 17, SSD1306_COLOR_WHITE);
 	SSD1306_UpdateScreen();
 	millis = 0;
-	while (millis < 150);
+	while (millis < 100);
 	}
 	SSD1306_Fill(SSD1306_COLOR_BLACK);
 	for (unsigned char i = 10; i < 70; i+=4)
@@ -33,8 +35,9 @@ void StartIcons (void)
 	PrintIcon (wel2_ICO, wel2WP, wel2HP, 0, 17, SSD1306_COLOR_WHITE);
 	SSD1306_UpdateScreen();
 	millis = 0;
-	while (millis < 150);
+	while (millis < 100);
 	}
+	LCD_REFRESH = 1;
 }
 
 void SetupHardware( void )
@@ -45,16 +48,21 @@ void SetupHardware( void )
 	SysTick_Config(SystemCoreClock/1000);
 	ssd1306_I2C_Init();
 	State.ENetStatus = 2;
-	IOState.GSM_ETH_EN = DISABLE;
-	IOState.SPK_EN = DISABLE;
+	IOState.GSM_ETH_EN = ENABLE;
+	IOState.SPK_EN = ENABLE;
+	IOState.RELAY2 = ENABLE;
 	RW_IO();
+	RTC_Init();
+	//RTC_Setup(00, 35, 6, 27, 8, 2018);
 	SSD1306_Init();
-	ConvertDHT();
-	InitUART_Terminal(57600);
+	InitUART_Terminal(9600);
+	InitUART_GSM(9600);
+	InitCall485(300000);
 	StartIcons();
+	ConvertDHT();
 }
 
-unsigned long millis = 0, sec = 0, timLCD = 0;
+unsigned long millis = 0, sec = 0, min = 0, timLCD = 0, DHT11_DT = 0;
 void SysTick_Handler(void)
 {
 	millis ++;
@@ -63,16 +71,25 @@ void SysTick_Handler(void)
 	{
 		millis = 0;
 		sec++;
+		if (sec > 59)
+		{
+			sec = 0;
+			SSD1306_Init();
+		}
+		DHT11_DT++;
+		if (LCD_REFRESH)
+		{
+			Print();
+		}
 	}
-	if (timLCD > 100)
-	{
-		timLCD = 0;
-		if (Windows != WND_Starting) Print();
-	}
-	if (sec > 10)
+	if (DHT11_DT > 30)
 	{
 		ConvertDHT();
+		DHT11_DT = 0;
 	}
+	TimDelay1++;
+	TimDelay2++;
+	TimDelay3++;
 }
 
 void GPIO_Initialise (void)
@@ -320,9 +337,17 @@ void EnableClockPeriph (void)
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 
 		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+		    RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
 
 		    RCC_APB1PeriphClockCmd(RCC_APB1Periph_DAC, ENABLE);
-		    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM6,ENABLE);
+		    RCC_APB2PeriphClockCmd(RCC_APB2Periph_TIM1,ENABLE);
+		    RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4,ENABLE);
+
+		    RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1, ENABLE);
+		    RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA2, ENABLE);
+
+		    RCC_ADCCLKConfig(RCC_PCLK2_Div8);
+			RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1|RCC_APB2Periph_ADC2, ENABLE);
 
 }
 
@@ -427,5 +452,17 @@ void Print (void)
 	{
 		PrintIcon (sms_ICO, smsWP, smsHP, 35, 0, SSD1306_COLOR_WHITE);
 	}
+
+	SSD1306_GotoXY(60,3);
+	RTC_GetTimeStr();
+	SSD1306_Puts(RTC_TimeStr, &Font_7x10, SSD1306_COLOR_WHITE);
+
 	SSD1306_UpdateScreen();
+}
+
+unsigned char USER = 0;
+
+void MenyIco (void)
+{
+
 }
